@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header center">
+            <div class="header__left">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <a href="#"><img src="img/search.svg" alt="search"></a>
+            </div>
+            <nav class="header__right">
+                <label for="header__check"><img src="img/menu.svg" alt="menu"></label>
+                <a class="header__link-site" href="registration.html"><img src="img/reg.svg" alt="reg"></a>
+                <a class="header__link-site" href="cart.html"><img src="img/cart.svg" alt="cart"></a>
+            </nav>
+            <input class="header__checkbox" id="header__check" type="checkbox">
+            <div class="mobile-menu">
+                <div class="mobile-menu__link-site">
+                    <a href="registration.html"><img src="img/reg.svg" alt="registration"></a>
+                    <a href="cart.html"><img src="img/cart.svg" alt="cart"></a>
+                </div>
+                <h3 class="mobile-menu__heading">MENU</h3>
+                <div class="mobile-menu__box">
+                    <div class="mobile-menu__item">
+                        <a href="catalog.html" class="mobile-menu__title">MAN</a>
+                        <ul class="mobile-menu__list">
+                            <li><a class="mobile-menu__link" href="#">Accessories</a></li>
+                            <li><a class="mobile-menu__link" href="#">Bags</a></li>
+                            <li><a class="mobile-menu__link" href="#">Denim</a></li>
+                            <li><a class="mobile-menu__link" href="#">T-Shirts</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu__item">
+                        <a href="catalog.html" class="mobile-menu__title">WOMAN</a>
+                        <ul class="mobile-menu__list">
+                            <li><a class="mobile-menu__link" href="">Accessories</a></li>
+                            <li><a class="mobile-menu__link" href="">Bags</a></li>
+                            <li><a class="mobile-menu__link" href="">Denim</a></li>
+                            <li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu__item">
+                        <a href="catalog.html" class="mobile-menu__title">KIDS</a>
+                        <ul class="mobile-menu__list">
+                            <li><a class="mobile-menu__link" href="">Accessories</a></li>
+                            <li><a class="mobile-menu__link" href="">Bags</a></li>
+                            <li><a class="mobile-menu__link" href="">Denim</a></li>
+                            <li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <section class="head center">
+        <h2 class="head__heading">SHOPPING CART </h2>
+    </section>
+
+    <div class="cart center">
+        <div class="cart__left">
+            <div class="cart__item">
+                <img class="item__img" src="img/item2.svg" alt="">
+                <div class="item__content">
+                    <h1 class="item__header">MANGO PEOPLE<br>T-SHIRT</h1>
+                    <div class="item__price">
+                        <p class="item__price_text">Price:</p>
+                        <p class="price">$300</p>
+                    </div>
+                    <p class="item__text">Color: Red<br> Size: Xl<br> Quantity:	2</p>
+                </div>
+            <a href="#" class="del__item"><img src="img/x.svg" alt="x"></a>
+            </div>
+
+            <div class="cart__item">
+                <img class="item__img" src="img/item.svg" alt="">
+                <div class="item__content">
+                    <h1 class="item__header">MANGO  PEOPLE<br>T-SHIRT</h1>
+                    <div class="item__price">
+                        <p class="item__price_text">Price:</p>
+                        <p class="price">$300</p>
+                    </div>
+                    <p class="item__text">Color: Red<br> Size: Xl<br> Quantity:	2</p>
+                </div>
+            <a href="#" class="del__item"><img src="img/x.svg" alt="x"></a>
+            </div>
+
+            <div class="buttons">
+                <button class="clear__cart">CLEAR SHOPPING CART</button>
+                <button class="continue">CONTINUE SHOPPING</button>
+            </div>
+        </div>
+
+
+        <div class="cart__right">
+            <div class="shipping">
+                <h3 class="shipping__head">SHIPPING ADRESS</h3>
+                <form class="ship__form" action="#" method="post">
+                    <input class="shipping__forms" type="text" placeholder="Sity"><br>
+                    <input class="shipping__forms" type="text" placeholder="State"><br>
+                    <input class="shipping__forms" type="text" placeholder="Postcode / Zip"><br>
+                    <button type="submit" class="shipping__button">GET A QUOTE</button>
+                </form>
+            </div>
+            <div class="finalcost">
+                <p class="sub__total">SUB TOTAL $900</p>
+                <div class="grand__total">
+                    <p class="grand__total_text">GRAND TOTAL</p>
+                    <p class="grand__price">$900</p>
+                </div>
+                <img class="grand__line" src="img/line.svg" alt=""> <br>
+                <button class="checkout">PROCEED TO CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+    <div class="basement center">
+        <div class="basement__left">
+            <img class="basephoto" src="img/Intersect.svg" alt="photo"></img>
+            <p class="quote">“Vestibulum quis porttitor dui! Quisque <br> viverra nunc mi, a pulvinar purus <br> condimentum“</p>
+        </div>
+        <div class="basement__right">
+            <div>
+                <p class="basetext text">SUBSCRIBE</p>
+                <p class="basetext">FOR OUR NEWLETTER AND PROMOTION</p>
+            </div>
+            <div class="sub__area">
+                <form action="#" method="post">
+                    <input type="email" placeholder="Enter Your Email">
+                    <button type="submit" class="subscribe__button">Subscribe</button>
+                </form>
+            </div>
+        </div>   
+    </div>
+
+    <div class="basement2 center">
+        <p class="rigts">© 2021  Brand  All Rights Reserved<p>
+        <div class="social__links">
+            <a class="social__icons" href="#"><img src="img/facebook.svg" alt=""><a>
+            <a class="social__icons inst" href="#"><img src="img/inst.svg" alt=""></a>
+            <a class="social__icons" href="#"><img src="img/p.svg" alt=""></a>
+            <a class="social__icons" href="#"><img src="img/twitter.svg" alt=""></a>
+        </div>
+    </div>
+    </footer>
+</body>
+
+</html>
